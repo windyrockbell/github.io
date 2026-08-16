@@ -1,9 +1,62 @@
 <!DOCTYPE html>
+
 <html>
-<body>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Windy Spirals</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header class="site-header" role="banner">
+            <div class="container">
+            <h1 class="site-title">Windy Spirals</h1>
 
-<h1>Windy Spirals</h1>
-<p>Under Construction</p>
+             <nav class="site-nav" aria-label="Primary">
+             <ul class="site-nav__list">
+                   <li><a href="index.html">Home</a></li>
+                   <li><a href="stories.html">Stories</a></li>
+                   <!--<li><a href="index.html">Comics</a></li>-->
+                   <!--<li><a href="index.html">Games</a></li>-->
+                     </ul>
+                  </nav>
+                 </div>
+        </header>
 
+  <main id="main" class="site-main" role="main">
+    <div class="container">
+      <article class="panel chapter" aria-labelledby="chapter-title">
+        <header class="chapter__header">
+          <h2 id="chapter-title" class="chapter__title">The Beginning</h2>
+          <!--<nav class="chapter__nav" aria-label="Chapter navigation">
+            #Previous Chapter</a>
+            <span class="chapter__sep">•</span>
+            #Contents</a>
+            <span class="chapter__sep">•</span>
+            #Next Chapter</a>
+          </nav>-->
+        </header>
+
+        <div class="chapter__body">
+          <p>
+            Learning some html, making a basic website to host anything I'm working on.  For the time being only a chapter of Two Princesses is available <a href="stories.html">here.</a>  More will come as I have a chance to further expand and update the site and get more comfortable operating with basic html and css.
+          </p>
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <footer class="site-footer" role="contentinfo" aria-label="Footer">
+    <div class="container">
+      
+    </div>
+  </footer>
+
+  <script>
+    // Simple current year
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
